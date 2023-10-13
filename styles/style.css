@@ -63,7 +63,9 @@ body {
 }
 
 .cover {
-    margin: 7px 20px;
+    width: 339px;
+    height: 198px;
+    flex-shrink: 0;
 }
 
 .intro {
