@@ -1,11 +1,16 @@
 body {
     width: 360px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
     background: #1e1e1e;
-    font-family: Inter, serif;
+    font-family: Inter, sans-serif;
     font-weight: 400;
 }
+
+/*h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
 
 .content-section {
     box-sizing: border-box;
@@ -70,7 +75,7 @@ body {
     background-image: url("/home/voldemar/dev/s-chistogo-lista-main/images/cover.svg");
     padding: 0 20px;
     background-repeat: no-repeat;
-    background-position: 20px;
+    background-position: right center;
 }
 
 .accent-span {
@@ -103,6 +108,7 @@ body {
 }
 
 .intro__heading {
+    color: #ccc;
     display: flex;
     width: 320px;
     justify-content: space-between;
