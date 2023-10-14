@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/">
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;700&family=Raleway:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>С чистого листа</title>
 </head>
 <body>
     <header class="header content-section content-section_theme_dark">
-        <img class="logo" src="./images/logo.svg">
+        <img class="logo" src="./images/logo.svg" alt="логотип">
         <nav class="header_menu">
               <a class="menu-item">Главная</a>
               <a href="#" class="menu-item_active">О нас</a>
@@ -18,15 +21,26 @@
           </nav>
 
     </header>
-    <main class="main">
+    <main class="cover__title">
         <section class="cover content-section content-section_theme_dark">
-            <h1>
+            <h1 class="accent-span">
                 <span >С</span>
-                <span >чистого</span>
-                <span>листа</span>
+                <span class="text-center" >чистого</span>
+                <span class="text-right">листа</span>
             </h1>
         </section>
-        <section class="intro content-section content-section_theme_dark">section 2</section>
+        <section class="intro content-section content-section_theme_dark">
+            <div class="intro__heading">
+                <div class="intro__title">
+                    8 способов борьбы со страхом чистого листа
+                </div>
+                <time class="intro__date" datetime="2022-06-05">05.06.2022 г.</time>
+            </div>
+            <div class="intro__main-text">
+                <p>Начинать что-то новое — тяжело и страшно. Даже если это просто небольшой фрагмент кода. Или текст. Например, прежде чем написать здесь что-то вразумительное, автор(ка) этого материала заварила чай, позвонила бабушке узнать, как поживают на даче огурцы с помидорами (окей, это правда важно), 10 минут ходила туда-сюда по комнате, протёрла пыль на столе и заварила чай ещё раз, потому что он остыл. Всё это время с монитора на неё смотрел чистый лист.</p>
+                <p>Прокрастинировать перед тем, как начать что-то делать (особенно что-то новое) — нормальная реакция мозга. Разберёмся, почему это происходит.</p>
+            </div>
+        </section>
         <section class="reasons reasons content-section content-section_theme_bright">section 3</section>
         <section class="how-to content-section content-section_theme_dark">section 4</section>
     </main>
